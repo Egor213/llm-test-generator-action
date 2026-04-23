@@ -68,7 +68,7 @@ inputs:
   max_async_workers:
     description: 'Параллельные воркеры'
     required: false
-    default: '5'
+    default: '1'
 
   # --- фильтры целей ---
   target_dir:
