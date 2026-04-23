@@ -22,7 +22,7 @@ inputs:
   generator_repo:
     description: 'URL репо с генератором'
     required: false
-    default: 'https://github.com/your-org/Generator_Tests.git'
+    default: 'https://github.com/Egor213/Generator_Tests.git'
 
   # --- где лежит код ---
   project_root:
@@ -125,7 +125,7 @@ runs:
       run: |
         echo "::group::Install generator"
         pip install --upgrade pip
-        pip install "git+${{ inputs.generator_repo }}@${{ inputs.generator_version }}"
+        pip install "git+${{ inputs.generator_repo }}"
         echo "::endgroup::"
 
     - name: Run generator
