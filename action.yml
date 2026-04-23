@@ -8,7 +8,7 @@ branding:
 inputs:
   # --- обязательные ---
   github_token:
-    description: 'GitHub token (обычно ${{ secrets.GITHUB_TOKEN }})'
+    description: 'GitHub token'
     required: true
   ai_api_key:
     description: 'API-ключ для LLM (OpenAI / OpenRouter и т.д.)'
