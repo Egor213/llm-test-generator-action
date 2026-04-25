@@ -46,7 +46,7 @@ inputs:
   temperature:
     description: 'Temperature'
     required: false
-    default: '0.2'
+    default: '0.5'
   api_base_url:
     description: 'Base URL для API (OpenRouter, прокси и т.д.)'
     required: false
